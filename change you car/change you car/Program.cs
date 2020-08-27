@@ -33,24 +33,12 @@ namespace ConsoleApp1
 
                 for (int i = 0; i < password.Pass.Length; i++)
                 {
-                    if (password.Pass[i] == peoplePass)
+                    if (peoplePass != password.Pass[i])
                     {
                         count1++;
-                    }
-                    if (password.Pass[i] != peoplePass)
-                    {
-                        count2++;
+                        i++;
                     }
                 }
-                if (count1 < count2)
-                {
-                    Console.WriteLine("Great!");
-                }
-                else
-                {
-                    Console.WriteLine("ERROR");
-                }
-                var u
             }
         }
 
@@ -98,6 +86,7 @@ namespace ConsoleApp1
             Password.addPass();
             Logger.controlPass();
             LogicForBmw();
+            
         }
 
     }
