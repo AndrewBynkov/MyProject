@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Андрей\\source\\repos\\MyProject2\\change you car\\change you car\\change you car.csproj": {}
+    "C:\\Users\\Андрей\\Source\\Repos\\MyProject2\\change you car\\change you car\\change you car.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Андрей\\source\\repos\\MyProject2\\change you car\\change you car\\change you car.csproj": {
+    "C:\\Users\\Андрей\\Source\\Repos\\MyProject2\\change you car\\change you car\\change you car.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\source\\repos\\MyProject2\\change you car\\change you car\\change you car.csproj",
+        "projectUniqueName": "C:\\Users\\Андрей\\Source\\Repos\\MyProject2\\change you car\\change you car\\change you car.csproj",
         "projectName": "change you car",
-        "projectPath": "C:\\Users\\Андрей\\source\\repos\\MyProject2\\change you car\\change you car\\change you car.csproj",
+        "projectPath": "C:\\Users\\Андрей\\Source\\Repos\\MyProject2\\change you car\\change you car\\change you car.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\source\\repos\\MyProject2\\change you car\\change you car\\obj\\",
+        "outputPath": "C:\\Users\\Андрей\\Source\\Repos\\MyProject2\\change you car\\change you car\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
