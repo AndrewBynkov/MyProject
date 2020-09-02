@@ -10,4 +10,3 @@ C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.dll
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.pdb
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.genruntimeconfig.cache
-C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csprojAssemblyReference.cache

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Dynamic;
+using System.IO;
 using System.Security.Authentication;
 
 namespace ConsoleApp1
@@ -24,7 +25,7 @@ namespace ConsoleApp1
                 string peoplePass;
                 int count1 = 0;
 
-                while (count1==0)
+                while (count1 == 0)
                 {
                     peoplePass = Console.ReadLine();
 
@@ -36,7 +37,7 @@ namespace ConsoleApp1
                         }
                     }
 
-                    if (count1 == 0) 
+                    if (count1 == 0)
                     {
                         Console.WriteLine($"Password {peoplePass} - incorrect. Try again");
                     }
@@ -85,13 +86,37 @@ namespace ConsoleApp1
                     }
                 }
             }
+            public class FreeSpaseInYouCommputer
+            {
+                public static void Spase()
+                {
+                    DriveInfo[] drives = DriveInfo.GetDrives();
+                    float size = 0.0F;
+                   
 
-            static void Main(string[] args)
+                    foreach (DriveInfo drive in drives)
+                    {
+                        Console.WriteLine($"Name: {drive.Name}");
+                        Console.WriteLine($"Type: {drive.DriveType}");
+                        if (drive.IsReady)
+                        {
+                            Console.WriteLine($"Disk size: {size = (drive.TotalSize/1000000000)} Gb ");
+                            Console.WriteLine($"Free spase: {size = (drive.TotalFreeSpace/1000000000)} Gb");
+                            Console.WriteLine($"Tag: {drive.TotalSize}");
+                        }
+                        Console.WriteLine();
+                    }
+
+                }
+            }
+            static void Main()
             {
                 Password.addPass();
                 LogicForBmw();
+                FreeSpaseInYouCommputer.Spase();
                 Console.ReadKey();
             }
+
         }
-    }
-}
+    }    
+} 
