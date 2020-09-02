@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
             public static void addPass()
             {
-                Console.WriteLine("Enter 2 Password: ");
+                Console.WriteLine("Enter 2 password for archive: ");
                 Password password = new Password();
 
                 for (int i = 0; i < password.Pass.Length; i++)
@@ -67,7 +67,7 @@ namespace ConsoleApp1
                 Model model = new Model();
                 Color color = new Color();
 
-                Console.Write("\nEnter you mark car: ");
+                Console.Write("\nEnter you mark car BMW, Audi or Honda: ");
                 string CarForPeple = Console.ReadLine();
 
                 int index = 0;
@@ -90,6 +90,7 @@ namespace ConsoleApp1
             {
                 Password.addPass();
                 LogicForBmw();
+                Console.ReadKey();
             }
         }
     }

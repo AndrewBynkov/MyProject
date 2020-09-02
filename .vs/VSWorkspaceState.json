@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\change you car",
+    "\\change you car\\change you car"
   ],
+  "SelectedNode": "\\change you car\\change you car\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
