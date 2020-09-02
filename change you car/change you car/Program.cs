@@ -12,26 +12,38 @@ namespace ConsoleApp1
 
             public static void addPass()
             {
-                Console.WriteLine("Enter 2 Password:");
+                Console.WriteLine("Enter 2 Password: ");
                 Password password = new Password();
 
                 for (int i = 0; i < password.Pass.Length; i++)
                 {
                     password.Pass[i] = Console.ReadLine();
                 }
-                Console.WriteLine("OK thank you! Enter you pass: ");
+                Console.Write("OK thank you! Enter you pass: ");
 
-                string peoplePass = Console.ReadLine();
+                string peoplePass;
                 int count1 = 0;
 
-                for (int i = 0; i < password.Pass.Length; i++)
+                while (count1==0)
                 {
-                    while(peoplePass != password.Pass[i])
+                    peoplePass = Console.ReadLine();
+
+                    for (int i = 0; i < password.Pass.Length; i++)
                     {
-                        Console.WriteLine("error");
-                        peoplePass = Console.ReadLine();
+                        if (peoplePass == password.Pass[i])
+                        {
+                            count1++;
+                        }
                     }
 
+                    if (count1 == 0) 
+                    {
+                        Console.WriteLine($"Password {peoplePass} - incorrect. Try again");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Password - {peoplePass} correct! Sucsess!");
+                    }
                 }
             }
 
