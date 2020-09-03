@@ -4,7 +4,6 @@ C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\bin\
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.runtimeconfig.dev.json
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.dll
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.pdb
-C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csprojAssemblyReference.cache
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.AssemblyInfoInputs.cache
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.AssemblyInfo.cs
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csproj.CoreCompileInputs.cache
