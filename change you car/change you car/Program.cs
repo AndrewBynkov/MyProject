@@ -15,7 +15,6 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Enter 2 password for archive: ");
                 Password password = new Password();
-
                 for (int i = 0; i < password.Pass.Length; i++)
                 {
                     password.Pass[i] = Console.ReadLine();
@@ -24,7 +23,6 @@ namespace ConsoleApp1
 
                 string peoplePass;
                 int count1 = 0;
-
                 while (count1 == 0)
                 {
                     peoplePass = Console.ReadLine();
@@ -44,6 +42,7 @@ namespace ConsoleApp1
                     else
                     {
                         Console.WriteLine($"Password - {peoplePass} correct! Sucsess!");
+                        Console.WriteLine();
                     }
                 }
             }
@@ -100,19 +99,46 @@ namespace ConsoleApp1
                         Console.WriteLine($"Type: {drive.DriveType}");
                         if (drive.IsReady)
                         {
-                            Console.WriteLine($"Disk size: {size = (drive.TotalSize/1000000000)} Gb ");
-                            Console.WriteLine($"Free spase: {size = (drive.TotalFreeSpace/1000000000)} Gb");
+                            Console.WriteLine($"Disk size: {drive.TotalSize/ 1000000000} Gb ");
+                            Console.WriteLine($"Free spase: {drive.TotalFreeSpace/1000000000} Gb");
                             Console.WriteLine($"Tag: {drive.TotalSize}");
                         }
                         Console.WriteLine();
                     }
-
                 }
             }
-            static void Main()
+
+            public static void Switch()
             {
+                int i = 0;
+                while (i < 6)
+                {
+                    Console.WriteLine("Enter key: A, D, S or W");
+                    string Key = Console.ReadLine();
+                    switch (Key.ToLower())
+                    {
+                        case "w":
+                            Console.WriteLine("Go to streight");
+                            break;
+                        case "d":
+                            Console.WriteLine("Go to right");
+                            break;
+                        case "a":
+                            Console.WriteLine("Go to left");
+                            break;
+                        case "s":
+                            Console.WriteLine("Go back");
+                            break;
+                    }
+
+                    i++;
+                    Console.WriteLine();
+                }
+            }
+            public static void Main()
+            {
+                Switch();
                 Password.addPass();
-                LogicForBmw();
                 FreeSpaseInYouCommputer.Spase();
                 Console.ReadKey();
             }
