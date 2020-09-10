@@ -10,4 +10,16 @@ C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.dll
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.pdb
 C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.genruntimeconfig.cache
-C:\Users\Андрей\source\repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.exe
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.deps.json
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.runtimeconfig.json
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.runtimeconfig.dev.json
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.dll
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\bin\Debug\netcoreapp3.1\change you car.pdb
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.dll
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.pdb
+C:\Users\Admin\Source\Repos\MyProject2\change you car\change you car\obj\Debug\netcoreapp3.1\change you car.genruntimeconfig.cache
